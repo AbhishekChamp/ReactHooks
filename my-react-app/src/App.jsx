@@ -1,10 +1,10 @@
 import "./app.css";
-import UseStateHook from "./components/UseStateHook";
+import UseContextHook from "./components/UseContextHook/index";
 
 function App() {
     return (
         <>
-            <UseStateHook />
+            <UseContextHook />
         </>
     );
 }
